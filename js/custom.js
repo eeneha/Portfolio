@@ -31,3 +31,21 @@
   })(window.jQuery);
 
 
+  // function sendEmail() {
+  //   event.preventDefault(); 
+  //   var formData = new FormData(document.querySelector('form')); 
+
+  //   var xhr = new XMLHttpRequest();
+  //   xhr.open("POST", "send_email.php", true); 
+  //   xhr.onload = function() {
+  //     if (this.status == 200) {
+  //       if (this.responseText === "success") {
+  //         alert("Email sent successfully!"); 
+  //         document.querySelector('form').reset(); 
+  //       } else {
+  //         alert("Oops! Something went wrong. Please try again later."); 
+  //       }
+  //     }
+  //   };
+  //   xhr.send(formData);
+  // }
