@@ -5,7 +5,7 @@ TemplateMo 583 Festava Live
 https://templatemo.com/tm-583-festava-live
 
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap');
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
@@ -473,6 +473,14 @@ strong {
 /*---------------------------------------
   HERO        
 -----------------------------------------*/
+
+.text-whitee{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  color: white;
+}
 .hero-section {
   position: relative;
   overflow: hidden;
