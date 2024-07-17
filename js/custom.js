@@ -49,3 +49,20 @@
   //   };
   //   xhr.send(formData);
   // }
+
+var startDate = new Date('2019-01-01');
+var endDate = new Date();
+var difference = endDate.getTime() - startDate.getTime();
+var hoursPassed = Math.floor(difference / (1000 * 60 * 60));
+var counterElement = document.getElementById('coding-counter');
+counterElement.setAttribute('data-purecounter-end', hoursPassed);
+
+function updateCounter() {
+    var currentDifference = new Date().getTime() - startDate.getTime();
+    var currentHoursPassed = Math.floor(currentDifference / (1000 * 60 * 60));
+    counterElement.textContent = currentHoursPassed;
+
+    setTimeout(updateCounter, 1000 * 60 * 60);  // Update every hour
+}
+
+updateCounter();
