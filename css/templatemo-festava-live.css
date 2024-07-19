@@ -933,6 +933,154 @@ strong {
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
+/*---------------------------------------
+  RESPONSIVE STYLES               
+-----------------------------------------*/
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  h1 { font-size: 2.5rem; } /* ~40px */
+  h2 { font-size: 2rem;   } /* ~32px */
+  h3 { font-size: 1.75rem; } /* ~28px */
+  h4 { font-size: 1.5rem;  } /* ~24px */
+  h5 { font-size: 1.25rem; } /* ~20px */
+  h6 { font-size: 1rem;    } /* ~16px */
+
+  .section-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    padding-top: 15px; /* Add padding to the top */
+    padding-bottom: 15px; 
+    background-color: var(--dark-color); /* Menu background on mobile */
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 0; /* Adjust padding for smaller screens */
+    display: block;    /* Stack nav links vertically */
+    text-align: center; /* Center align nav links */
+  }
+
+  .hero-section {
+    padding-top: 100px; 
+    text-align: center; /* Center align hero content */
+  }
+
+  .pricing-thumb {
+    padding: 25px;
+  }
+
+  .schedule-table {
+    font-size: 0.9rem; /* Reduce overall table font size */
+  }
+
+  .schedule-table th, 
+  .schedule-table td {
+    padding: 15px 10px; 
+  }
+
+  .ticket-section {
+    padding-top: 80px;
+  }
+
+  .ticket-form {
+    padding: 20px;
+  }
+
+  .custom-btn {
+    font-size: 1rem; 
+    padding: 8px 16px;
+    display: block;    /* Make buttons full width */
+    margin: 10px auto; /* Center buttons horizontally */
+  }
+}
+
+/* Small devices (tablets, 576px - 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Styles for tablets (similar adjustments as above, but less drastic) */
+  h1 { font-size: 3.5rem; } /* ~56px */
+  h2 { font-size: 2.5rem; } /* ~40px */
+  h3 { font-size: 2rem;   } /* ~32px */
+  h4 { font-size: 1.75rem; } /* ~28px */
+  h5 { font-size: 1.5rem;  } /* ~24px */
+
+  .section-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 12px 8px;
+  }
+
+  .hero-section {
+    padding-top: 120px; 
+  }
+
+  .pricing-thumb {
+    padding: 35px;
+  }
+
+  .schedule-table th, 
+  .schedule-table td {
+    padding: 20px 15px; 
+  }
+
+  .ticket-section {
+    padding-top: 100px;
+  }
+
+  .ticket-form {
+    padding: 25px;
+  }
+
+  .custom-btn {
+    font-size: 1.1rem; 
+    padding: 10px 20px;
+  }
+}
+
+
+/* Medium devices (desktops, 768px - 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles for smaller desktops - You can adjust these as needed */
+  .section-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .hero-section {
+    padding-top: 150px; 
+  }
+
+  .pricing-thumb {
+    padding: 45px;
+  }
+
+  .schedule-table th, 
+  .schedule-table td {
+    padding: 25px 20px; 
+  }
+
+  .ticket-form {
+    padding: 30px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   /* Default styles are already applied for larger screens */
+} 
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 62px;
